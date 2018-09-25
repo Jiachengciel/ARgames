@@ -1,0 +1,4 @@
+AR游戏场景一：有卡识别
+1、创建场景一
+2、删除main camera，添加ARcamera
+3、申请Vuforia的license key，绑定到ARcamera
