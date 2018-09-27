@@ -4,4 +4,16 @@ AR游戏场景一：有卡识别
 3、申请Vuforia的license key，绑定到ARcamera
 4、上传识别卡到Vuforia官网（便于之后识别）
   --（用手边的明信片或照片，上传其图像，以供于识别）
-  
+5、将识别卡导入unity
+  --download database选中unity editor
+  --unity中imoprt package选中custom package
+  --将下载文件导入
+6、将模型文件放入assets文件夹下
+
+7、将ARcamera的rotation朝下，即x=90
+8、选中Vuforia的Image，将导入的识别卡ImageTarget放入图像中
+9、将Pikachu模型放入图像
+
+10、设置rotation，使pikachu朝向使用者
+11、点击播放按钮，显示屏中pikachu可根据识别卡显示
+
